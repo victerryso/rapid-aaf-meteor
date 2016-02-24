@@ -1,0 +1,20 @@
+<head>
+  <title>Rapid AAF via Meteor</title>
+</head>
+
+<body>
+  {{> yield}}
+</body>
+
+<template name='home'>
+  <h1>Rapid AAF via Meteor</h1>
+
+  <a href="{{ loginURL }}">
+    <button>Login via AAF</button>
+  </a>
+</template>
+
+<template name='user'>
+  <h1>Rapid AAF via Meteor</h1>
+  {{{ user }}}
+</template>
